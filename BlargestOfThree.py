@@ -1,23 +1,22 @@
-# - -coding: utf- 8 -
+'''
+Problem Statement
+Define a function max_of_three() that takes three numbers
+as arguments and returns the largest of them.
+'''
 
-## Problem Statement ##
-## Define a function max_of_three() that takes three numbers as arguments and returns the largest of them. ##
-
-#num1 = input("enter num1: ")
-#num2 = input("enter num2: ")
-#um3 = input("enter num3: ")
 import sys
 
-def larnum(num1,num2,num3):
-	largest = num1
+def larnum(num1, num2, num3):
 
-	if (num2 > largest):
-	  largest = num2
-	
-	if (num3 > largest):
-	  largest = num3
+    largest = num1
 
-	print "the largest number is", largest
-	return largest
+    if num2 > largest:
+        largest = num2
 
-larnum(sys.argv[1],sys.argv[2],sys.argv[3])  
+    if num3 > largest:
+        largest = num3
+
+    print "the largest number is", largest
+    return largest
+
+larnum(sys.argv[1], sys.argv[2], sys.argv[3])
