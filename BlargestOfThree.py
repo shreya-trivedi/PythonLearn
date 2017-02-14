@@ -1,4 +1,8 @@
 # - -coding: utf- 8 -
+
+## Problem Statement ##
+## Define a function max_of_three() that takes three numbers as arguments and returns the largest of them. ##
+
 #num1 = input("enter num1: ")
 #num2 = input("enter num2: ")
 #um3 = input("enter num3: ")
