@@ -7,6 +7,16 @@ as arguments and returns the largest of them.
 import sys
 
 def larnum(num1, num2, num3):
+    """Function to find the larger number.
+
+    Args:
+        num1: The first parameter.
+        num2: The second parameter.
+        num3: The third parameter.
+
+    Returns:
+        The largest number.
+    """
 
     largest = num1
 
