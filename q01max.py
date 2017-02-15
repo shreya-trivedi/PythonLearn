@@ -1,3 +1,5 @@
+#! /usr/bin/python3.5
+
 '''
 Problem Statement
 Define a function max() that takes two numbers as arguments
@@ -8,6 +10,16 @@ built in, but writing it yourself is nevertheless a good exercise.)
 import sys
 
 def max_num(num1, num2):
+    """Function to find the larger number.
+
+    Args:
+        num1: The first parameter.
+        num2: The second parameter.
+
+    Returns:
+        The larger number.
+    """
+
     if num1 > num2:
         print "num1 %r is greater than num2 %r" % (num1, num2)
     elif num1 < num2:
