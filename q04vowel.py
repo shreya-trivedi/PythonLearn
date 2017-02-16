@@ -15,6 +15,10 @@ def vowel(char):
     Returns:
         True if character is a vowel.
     '''
+    if len(char) > 1:
+        print "Please enter a string of size 1"
+        exit()
+
     if char in "aeiou":
         print "True"
     else:
