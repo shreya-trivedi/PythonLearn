@@ -9,9 +9,14 @@ For example, translate("this is fun")should return the string
 import sys
 
 def translate(str1):
+    p = ""
     for char in str1:
         if char not in "aieou":
             str1 = char + 'o' + char
-            print str1
+            p += str1
+        else:
+            str1 = char
+            p += char
+    print p
 
 translate("this is a cat")
