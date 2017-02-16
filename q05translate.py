@@ -11,7 +11,7 @@ import sys
 def translate(str1):
     p = ""
     for char in str1:
-        if char not in "aieou":
+        if char not in "aieou ":
             str1 = char + 'o' + char
             p += str1
         else:
@@ -19,4 +19,4 @@ def translate(str1):
             p += char
     print p
 
-translate("this is a cat")
+translate(sys.argv[1])
